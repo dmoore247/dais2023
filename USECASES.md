@@ -1,45 +1,58 @@
 
 ```mermaid
+
+
 graph LR;
-  subgraph Data Analytics Use Cases
-    A[Customer 360 analysis]
-    B[Product recommendation]
-    C[Network analysis]
-    D[Compliance]
+  subgraph G1["Use Cases"]
+    A[Patient 360 analysis]
+    B[Provider recommendation]
+    C[Compliance]
     E[Security audit]
     F[Fraud detection]
-    G[Risk management]
+    R1[Risk management]
     H[Supply chain management]
-    I[Traceability];
+    I[Traceability]
+    PR[Product recall]
+    U2[Compliance investigation]
+    PS[Provider Search];
+
   end
-  subgraph Graph Algorithms and ML Techniques
+  subgraph G2["Graph Algorithms"]
     J[Shortest path algorithm]
     K[PageRank algorithm]
-    L[Anomaly detection]
     M[Connected components algorithm]
     N[Community detection algorithm]
     O[Hierarchical clustering]
-    P[Path analysis]
+    PA[Path analysis]
     Q[Centrality analysis]
     R[Rule-based reasoning]
-    S[Compliance scoring]
-    T[Graph traversal]
-    U[Dependency analysis]
+    GT[Graph traversal]
+  end
+
+  subgraph G3["ML Techniques"]
+    L[Anomaly detection]
+    DA[Dependency analysis]
     V[Provenance tracking]
     W[Entity linking]
     X[Relation extraction]
-    Y[Semantic search]
-    Z[Fraud scoring]
-    AA[Threat modeling]
-    BB[Bottleneck detection]
-    CC[Customer segmentation]
-    DD[Churn scoring]
+    SS[Semantic search]
+    SEG[Segmentation]
+    SM[Scoring Model]
     EE[Demand forecasting]
-    FF[Time series analysis]
-    GG[Seasonal adjustment];
+    HH[Collaborative filtering]
+    JJ[Content filtering]
   end
-  A[Data Analytics Use Cases] --> J[Graph Algorithms and ML Techniques];
-  
 
-  
+  A --> M;
+  A --> N;
+  A --> O;
+  F --> L;
+  B --> HH;
+  B --> JJ;
+  PR --> GT;
+  R1 --> DA;
+  PS --> SS;
+  PS --> SEG;
+  C --> PA;
+  R1 --> SM;
 ```
