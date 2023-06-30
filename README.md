@@ -1,10 +1,12 @@
-# dais2023
+# Data and AI Summit 2023
 Reference information for Douglas Moore's DAIS 2023 presentation
 
 Title:  Lakehouse: The Best Start to Your Graph Data and Analytics Journey
 
-[Douglas Moore - Presenter](https://www.linkedin.com/in/systemsdevelopment/)
+Presenter: [Douglas Moore](https://www.linkedin.com/in/systemsdevelopment/)
 
-[Supply Chain GNN demo fork](https://github.com/dmoore247/gnn-db-blogpost)
+Demo code: [Supply Chain GNN demo fork](https://github.com/dmoore247/gnn-db-blogpost)
 
-Demo Creator [Ajmal Aziz](https://www.linkedin.com/in/ajmal-aziz/)
+Demo Author: [Ajmal Aziz](https://www.linkedin.com/in/ajmal-aziz/)
+
+Supply Chain [GNN Blog Post](https://medium.com/@ajmal.t.aziz/using-mlflow-to-deploy-graph-neural-networks-for-monitoring-supply-chain-risk-644c87e5259e)
